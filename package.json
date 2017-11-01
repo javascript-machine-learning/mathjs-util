@@ -1,0 +1,29 @@
+{
+  "name": "mathjs-util",
+  "version": "0.1.0",
+  "description": "Util functions when dealing with math.js",
+  "main": "lib/index.js",
+  "dependencies": {
+    "mathjs": "^3.16.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "compile": "babel --presets es2015,stage-2 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javascript-machine-learning/mathjs-util.git"
+  },
+  "keywords": [],
+  "author": "“Robin <“wrobin@gmx.net”> (https://www.robinwieruch.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javascript-machine-learning/mathjs-util/issues"
+  },
+  "homepage": "https://github.com/javascript-machine-learning/mathjs-util#readme"
+}

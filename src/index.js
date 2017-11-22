@@ -10,13 +10,13 @@ export const pushVector = (matrix, index, vector) => {
 
   return extendedMatrix.map((row, rowKey) => row.map((column, columnKey) => {
     if (index === columnKey) {
-      return [ ...vector[rowKey][0] ];
+      return vector[rowKey][0];
     }
     if (columnKey < index) {
-      return [ ...matrix[rowKey][columnKey] ];
+      return matrix[rowKey][columnKey];
     }
     if (columnKey > index) {
-      return [ ...matrix[rowKey][columnKey - 1] ];
+      return matrix[rowKey][columnKey - 1];
     }
   }));
 };

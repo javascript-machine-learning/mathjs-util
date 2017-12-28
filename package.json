@@ -1,6 +1,6 @@
 {
   "name": "mathjs-util",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Util functions when dealing with math.js",
   "main": "lib/index.js",
   "dependencies": {
